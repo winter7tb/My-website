@@ -194,7 +194,7 @@ img:hover{
 }
 @media (max-width: 768px) {
     nav{
-      flex-direction: column ;
+      text-align: center;
       margin-top: 5px;
     }
 
