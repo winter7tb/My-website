@@ -44,7 +44,7 @@ h2{
 }
 p{
     font-weight: bold;
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
 }
 .box{
@@ -112,31 +112,24 @@ p{
 .slider-track:hover{
     animation-play-state: paused;
 }
-@media (max-width: 640px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-  }
-
-  .scroller-track img,
-  .slider-track img {
-    width: 100px;
-    height: 100px;
-  }
-
-  p {
-    font-size: 15px;
-  }
-}
 @media (max-width: 768px) {
-  nav ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    gap: 15px;
-  }
-  p {
-    font-size: 15px;
-  }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .scroller, .slider, .box {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .scroller-track, .slider-track {
+        width: max-content;
+    }
+
+    h2, p {
+        text-align: center;
+        padding: 0 10px;
+    }
 }
