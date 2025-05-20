@@ -206,6 +206,7 @@ img:hover{
 
     nav li {
         padding: 10px 0;
+        margin-left: 10px;
     }
   .content {
       text-align: center;
