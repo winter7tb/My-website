@@ -197,9 +197,12 @@ img:hover{
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;
-        gap: 10px;
         margin-top: 5px;
+    }
+
+    nav ul li a{
+      text-align: center;
+      gap: 10px;
     }
 
   .content {
