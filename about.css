@@ -114,8 +114,8 @@ p{
 }
 @media (max-width: 768px) {
     nav {
-        display: inline-block;
-        flex-direction: column;
+        display: display;
+        justify-content: center;
         align-items: center;
         gap: 12px;
     }
@@ -162,5 +162,7 @@ p{
     p{
         text-align: center;
         background: linear-gradient(to right, aqua, white);
+        -webkit-backdrop-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }

@@ -53,10 +53,10 @@ nav a:hover{
 }
 @media (max-width: 768px) {
     nav {
-        display: inline-block;
-        flex-direction: column;
+        display: flex;
+        justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 12px;
     }
 
     .loader {
