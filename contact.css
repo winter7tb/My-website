@@ -55,11 +55,12 @@ nav a:hover{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 12px;
+        text-align: center;
+        gap: 10px;
     }
 
     .loader {
-        margin-top: 7%;
+        margin-top: 20%;
         align-self: center;
     }
 }
