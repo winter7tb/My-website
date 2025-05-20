@@ -194,13 +194,12 @@ img:hover{
 }
 @media (max-width: 768px) {
     nav {
-        display: flex;
-        flex-direction: column ;
-        margin-top: 5px;
+      flex-direction: column ;
+      margin-top: 5px;
     }
 
-    nav ul li a{
-      text-align: center;
+    nav li{
+      display: flex;
       gap: 10px;
     }
 
