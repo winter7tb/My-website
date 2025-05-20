@@ -193,9 +193,10 @@ img:hover{
   filter: drop-shadow(0 0 15px aqua);
 }
 @media (max-width: 768px) {
-      nav {
+    nav {
         flex-direction: column;
         align-items: center;
+        display: flex;
     }
 
     nav ul {
